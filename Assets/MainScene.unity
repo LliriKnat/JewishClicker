@@ -1243,6 +1243,7 @@ GameObject:
   - component: {fileID: 1810991908}
   - component: {fileID: 1810991907}
   - component: {fileID: 1810991909}
+  - component: {fileID: 1810991910}
   m_Layer: 0
   m_Name: MechanicsObject
   m_TagString: Untagged
@@ -1294,6 +1295,18 @@ MonoBehaviour:
   text: {fileID: 1729993957}
   currentMoney: 0
   jewerlyJewStats: {fileID: 1205998997}
+--- !u!114 &1810991910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810991906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d7efc4d01a00ce498722e611b066646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1961420855
 GameObject:
   m_ObjectHideFlags: 0
