@@ -1,4 +1,8 @@
-﻿public class BigInt
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BigInt
 {
     private List<int> value = new List<int>();
     //добавляет разряд со значением v
