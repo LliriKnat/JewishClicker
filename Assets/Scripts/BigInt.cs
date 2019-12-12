@@ -20,6 +20,10 @@ public class BigInt
     {
         return this.value[category];
     }
+    public int getLastCatNum()
+    {
+        return this.value[this.count() - 1];
+    }
     // превращает разряд внутри числа в его нормальное отображение
     private string tranformToString(int x)
     {
@@ -89,7 +93,7 @@ public class BigInt
     {
         if (this.count() > 0)
         {
-            string s = this.value[this.count() - 1].ToString();
+            string s = this.getLastCatNum().ToString();
             for (int i = this.count() - 2; i >= 0; i--)
             {
                 s += tranformToString(this.value[i]);
@@ -102,6 +106,34 @@ public class BigInt
         }
 
     }
+
+    public char compare(BigInt x)
+    {
+        if (this.count() > x.count())
+        {
+            return '>';
+        }
+        else if (this.count() < x.count())
+        {
+            return '<';
+        }
+        else
+        {
+            for (int i = this.count() - 1; i >= 0; i--)
+            {
+                if (this.value[i] > x.getCatNum(i))
+                {
+                    return '>';
+                }
+                else if (this.value[i] < x.getCatNum(i))
+                {
+                    return '<';
+                }
+            }
+        }
+        return '=';
+    }
+
     // сложение двух больших чисел
     public void plus(BigInt x)
     {
@@ -109,10 +141,10 @@ public class BigInt
         for (int i = 0; i < x.count(); i++)
         {
             // если прибавляемое число имет больше разрядов чем то, к которому прибавляем
-            if (i >= this.value.Count)
+            if (i >= this.count())
             {
                 // скидываем лишние разряды в то, к которому прибавляем
-                this.value.Add(x.getCatNum(i));
+                this.add(x.getCatNum(i));
             }
             else
             {
@@ -138,5 +170,69 @@ public class BigInt
         }
 
     }
+    // разница между числами
+    public void minus(BigInt x)
+    {
+        switch (this.compare(x))
+        {
+            case '>':
+                int minCount = Mathf.Min(this.count(), x.count());
+                for (int i = 0; i < minCount; i++)
+                {
+                    this.value[i] -= x.getCatNum(i);
+                    if (this.value[i] < 0)
+                    {
+                        int j = i + 1;
+                        this.value[i + 1]--;
+                        this.value[i] += 1000;
+                        while (j < this.count() && this.value[j] < 0)
+                        {
+                            this.value[j + 1]--;
+                            this.value[j] += 1000;
+                            j++;
+                        }
+                    }
+                }
 
+                int z = this.count() - 1;
+                while (z >= 0 && this.value[z] == 0)
+                {
+                    this.value.RemoveAt(z);
+                    z--;
+                }
+
+                break;
+            case '<':
+                BigInt temp = new BigInt();
+                temp.value = x.value;
+                temp.minus(this);
+                this.value = temp.value;
+                temp = null;
+                break;
+            case '=':
+                this.value.Clear();
+                this.add(0);
+                break;
+        }
+    }
+    //сложение  простым интом
+    public void plusSmall(int x)
+    {
+        BigInt t = new BigInt();
+        if (x >= 1000000)
+        {
+            t.add(x / 1000000);
+        }
+        if (x >= 1000)
+        {
+            t.add((x % 1000000) / 1000);
+        }
+        if (x >= 1)
+        {
+            t.add(x % 1000);
+        }
+
+        this.plus(t);
+
+    }
 }
