@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BigInt
+﻿public class BigInt
 {
     private List<int> value = new List<int>();
     //добавляет разряд со значением v
@@ -134,6 +130,26 @@ public class BigInt
         return '=';
     }
 
+    //превращение простого числа в большое
+    public BigInt transToBigInt(int x)
+    {
+        BigInt t = new BigInt();
+
+        if (x >= 1)
+        {
+            t.add(x % 1000);
+        }
+        if (x >= 1000)
+        {
+            t.add((x % 1000000) / 1000);
+        }
+        if (x >= 1000000)
+        {
+            t.add(x / 1000000);
+        }
+        return t;
+    }
+
     // сложение двух больших чисел
     public void plus(BigInt x)
     {
@@ -169,6 +185,11 @@ public class BigInt
 
         }
 
+    }
+    //сложение c простым интом
+    public void plusSmall(int x)
+    {
+        this.plus(transToBigInt(x));
     }
     // разница между числами
     public void minus(BigInt x)
@@ -215,24 +236,12 @@ public class BigInt
                 break;
         }
     }
-    //сложение  простым интом
-    public void plusSmall(int x)
+
+    // разница с int
+    public void minusSmall(int x)
     {
-        BigInt t = new BigInt();
-        if (x >= 1000000)
-        {
-            t.add(x / 1000000);
-        }
-        if (x >= 1000)
-        {
-            t.add((x % 1000000) / 1000);
-        }
-        if (x >= 1)
-        {
-            t.add(x % 1000);
-        }
-
-        this.plus(t);
-
+        this.minus(transToBigInt(x));
     }
+
+
 }
