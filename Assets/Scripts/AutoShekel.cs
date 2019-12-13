@@ -6,12 +6,47 @@ public class AutoShekel : MonoBehaviour
 {
 
     public bool CreatingShekel = false;
-    public static int ShekelIncrease = 1;
+    public static int ShekelIncrease = 0;
     public int InternalIncrease;
+    public static bool goyFlag;
+    public static bool moneylanderFlag;
+    public static bool rabbiFlag;
+    public static bool synagogueFlag;
+    public static bool jewerlyFlag;
+    public static bool kibbutzFlag;
 
     void Update()
     {
-        ShekelIncrease = GlobalJewerlyJew.jewerlyPerSec;
+        if (GlobalShekels.ShekelCount >= GlobalUpgrades.goyCost)
+        {
+            goyFlag = true;
+        }
+        //
+        if (GlobalShekels.ShekelCount >= GlobalUpgrades.moneylanderCost)
+        {
+            moneylanderFlag = true;
+        }
+        //
+        if (GlobalShekels.ShekelCount >= GlobalUpgrades.rabbiCost)
+        {
+            rabbiFlag = true;
+        }
+        //
+        if (GlobalShekels.ShekelCount >= GlobalUpgrades.synagogueCost)
+        {
+            synagogueFlag = true;
+        }
+        //
+        if (GlobalShekels.ShekelCount >= GlobalUpgrades.jewerlyCost)
+        {
+            jewerlyFlag = true;
+        }
+        //
+        if (GlobalShekels.ShekelCount >= GlobalUpgrades.kibbutzCost)
+        {
+            kibbutzFlag = true;
+        }
+        ShekelIncrease = Autoclicker.moneyPerSec;
         InternalIncrease = ShekelIncrease;
         if (CreatingShekel == false)
         {

@@ -13,4 +13,5 @@ public class MainShekelClick : MonoBehaviour
         statusBox.GetComponent<Text>().text = "Oy vey! We need more shekels!";
         statusBox.GetComponent<Animation>().Play("StatusAnimation");
     }
+
 }

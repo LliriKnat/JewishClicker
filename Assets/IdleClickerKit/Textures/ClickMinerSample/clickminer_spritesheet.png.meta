@@ -1,0 +1,2474 @@
+fileFormatVersion: 2
+guid: f0a2f1b1b1a7f49429d0bea5516bb3f8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spritesheet_tiles_0
+    21300002: spritesheet_tiles_1
+    21300004: spritesheet_tiles_2
+    21300006: spritesheet_tiles_3
+    21300008: spritesheet_tiles_4
+    21300010: spritesheet_tiles_5
+    21300012: spritesheet_tiles_6
+    21300014: spritesheet_tiles_7
+    21300016: spritesheet_tiles_8
+    21300018: spritesheet_tiles_9
+    21300020: spritesheet_tiles_10
+    21300022: spritesheet_tiles_11
+    21300024: spritesheet_tiles_12
+    21300026: spritesheet_tiles_13
+    21300028: spritesheet_tiles_14
+    21300030: spritesheet_tiles_15
+    21300032: spritesheet_tiles_16
+    21300034: spritesheet_tiles_17
+    21300036: spritesheet_tiles_18
+    21300038: spritesheet_tiles_19
+    21300040: spritesheet_tiles_20
+    21300042: spritesheet_tiles_21
+    21300044: spritesheet_tiles_22
+    21300046: spritesheet_tiles_23
+    21300048: spritesheet_tiles_24
+    21300050: spritesheet_tiles_25
+    21300052: spritesheet_tiles_26
+    21300054: spritesheet_tiles_27
+    21300056: spritesheet_tiles_28
+    21300058: spritesheet_tiles_29
+    21300060: spritesheet_tiles_30
+    21300062: spritesheet_tiles_31
+    21300064: spritesheet_tiles_32
+    21300066: spritesheet_tiles_33
+    21300068: spritesheet_tiles_34
+    21300070: spritesheet_tiles_35
+    21300072: spritesheet_tiles_36
+    21300074: spritesheet_tiles_37
+    21300076: spritesheet_tiles_38
+    21300078: spritesheet_tiles_39
+    21300080: spritesheet_tiles_40
+    21300082: spritesheet_tiles_41
+    21300084: spritesheet_tiles_42
+    21300086: spritesheet_tiles_43
+    21300088: spritesheet_tiles_44
+    21300090: spritesheet_tiles_45
+    21300092: spritesheet_tiles_46
+    21300094: spritesheet_tiles_47
+    21300096: spritesheet_tiles_48
+    21300098: spritesheet_tiles_49
+    21300100: spritesheet_tiles_50
+    21300102: spritesheet_tiles_51
+    21300104: spritesheet_tiles_52
+    21300106: spritesheet_tiles_53
+    21300108: spritesheet_tiles_54
+    21300110: spritesheet_tiles_55
+    21300112: spritesheet_tiles_56
+    21300114: spritesheet_tiles_57
+    21300116: spritesheet_tiles_58
+    21300118: spritesheet_tiles_59
+    21300120: spritesheet_tiles_60
+    21300122: spritesheet_tiles_61
+    21300124: spritesheet_tiles_62
+    21300126: spritesheet_tiles_63
+    21300128: spritesheet_tiles_64
+    21300130: spritesheet_tiles_65
+    21300132: spritesheet_tiles_66
+    21300134: spritesheet_tiles_67
+    21300136: spritesheet_tiles_68
+    21300138: spritesheet_tiles_69
+    21300140: spritesheet_tiles_70
+    21300142: spritesheet_tiles_71
+    21300144: spritesheet_tiles_72
+    21300146: spritesheet_tiles_73
+    21300148: spritesheet_tiles_74
+    21300150: spritesheet_tiles_75
+    21300152: spritesheet_tiles_76
+    21300154: spritesheet_tiles_77
+    21300156: spritesheet_tiles_78
+    21300158: spritesheet_tiles_79
+    21300160: spritesheet_tiles_80
+    21300162: spritesheet_tiles_81
+    21300164: spritesheet_tiles_82
+    21300166: spritesheet_tiles_83
+    21300168: spritesheet_tiles_84
+    21300170: spritesheet_tiles_85
+    21300172: spritesheet_tiles_86
+    21300174: spritesheet_tiles_87
+    21300176: spritesheet_tiles_88
+    21300178: spritesheet_tiles_89
+    21300180: spritesheet_tiles_90
+    21300182: spritesheet_tiles_91
+    21300184: spritesheet_tiles_92
+    21300186: spritesheet_tiles_93
+    21300188: spritesheet_tiles_94
+    21300190: spritesheet_tiles_95
+    21300192: spritesheet_tiles_96
+    21300194: spritesheet_tiles_97
+    21300196: spritesheet_tiles_98
+    21300198: spritesheet_tiles_99
+    21300200: spritesheet_tiles_100
+    21300202: spritesheet_tiles_101
+    21300204: spritesheet_tiles_102
+    21300206: spritesheet_tiles_103
+    21300208: spritesheet_tiles_104
+    21300210: spritesheet_tiles_105
+    21300212: spritesheet_tiles_106
+    21300214: spritesheet_tiles_107
+    21300216: spritesheet_tiles_108
+    21300218: spritesheet_tiles_109
+    21300220: spritesheet_tiles_110
+    21300222: spritesheet_tiles_111
+    21300224: spritesheet_tiles_112
+    21300226: spritesheet_tiles_113
+    21300228: spritesheet_tiles_114
+    21300230: spritesheet_tiles_115
+    21300232: spritesheet_tiles_116
+    21300234: spritesheet_tiles_117
+    21300236: clickminer_spritesheet_0
+    21300238: clickminer_spritesheet_1
+    21300240: clickminer_spritesheet_2
+    21300242: clickminer_spritesheet_3
+    21300244: clickminer_spritesheet_4
+    21300246: clickminer_spritesheet_5
+    21300248: clickminer_spritesheet_6
+    21300250: clickminer_spritesheet_7
+    21300252: clickminer_spritesheet_8
+    21300254: clickminer_spritesheet_9
+    21300256: clickminer_spritesheet_10
+    21300258: clickminer_spritesheet_11
+    21300260: clickminer_spritesheet_12
+    21300262: clickminer_spritesheet_13
+    21300264: clickminer_spritesheet_14
+    21300266: clickminer_spritesheet_15
+    21300268: clickminer_spritesheet_16
+    21300270: clickminer_spritesheet_17
+    21300272: clickminer_spritesheet_18
+    21300274: clickminer_spritesheet_19
+    21300276: clickminer_spritesheet_20
+    21300278: clickminer_spritesheet_21
+    21300280: clickminer_spritesheet_22
+    21300282: clickminer_spritesheet_23
+    21300284: clickminer_spritesheet_24
+    21300286: clickminer_spritesheet_25
+    21300288: clickminer_spritesheet_26
+    21300290: clickminer_spritesheet_27
+    21300292: clickminer_spritesheet_28
+    21300294: clickminer_spritesheet_29
+    21300296: clickminer_spritesheet_30
+    21300298: clickminer_spritesheet_31
+    21300300: clickminer_spritesheet_32
+    21300302: clickminer_spritesheet_33
+    21300304: clickminer_spritesheet_34
+    21300306: clickminer_spritesheet_35
+    21300308: clickminer_spritesheet_36
+    21300310: clickminer_spritesheet_37
+    21300312: clickminer_spritesheet_38
+    21300314: clickminer_spritesheet_39
+    21300316: clickminer_spritesheet_40
+    21300318: clickminer_spritesheet_41
+    21300320: clickminer_spritesheet_42
+    21300322: clickminer_spritesheet_43
+    21300324: clickminer_spritesheet_44
+    21300326: clickminer_spritesheet_45
+    21300328: clickminer_spritesheet_46
+    21300330: clickminer_spritesheet_47
+    21300332: clickminer_spritesheet_48
+    21300334: clickminer_spritesheet_49
+    21300336: clickminer_spritesheet_50
+    21300338: clickminer_spritesheet_51
+    21300340: clickminer_spritesheet_52
+    21300342: clickminer_spritesheet_53
+    21300344: clickminer_spritesheet_54
+    21300346: clickminer_spritesheet_55
+    21300348: clickminer_spritesheet_56
+    21300350: clickminer_spritesheet_57
+    21300352: clickminer_spritesheet_58
+    21300354: clickminer_spritesheet_59
+    21300356: clickminer_spritesheet_60
+    21300358: clickminer_spritesheet_61
+    21300360: clickminer_spritesheet_62
+    21300362: clickminer_spritesheet_63
+    21300364: clickminer_spritesheet_64
+    21300366: clickminer_spritesheet_65
+    21300368: clickminer_spritesheet_66
+    21300370: clickminer_spritesheet_67
+    21300372: clickminer_spritesheet_68
+    21300374: clickminer_spritesheet_69
+    21300376: clickminer_spritesheet_70
+    21300378: clickminer_spritesheet_71
+    21300380: clickminer_spritesheet_72
+    21300382: clickminer_spritesheet_73
+    21300384: clickminer_spritesheet_74
+    21300386: clickminer_spritesheet_75
+    21300388: clickminer_spritesheet_76
+    21300390: clickminer_spritesheet_77
+    21300392: clickminer_spritesheet_78
+    21300394: clickminer_spritesheet_79
+    21300396: clickminer_spritesheet_80
+    21300398: clickminer_spritesheet_81
+    21300400: clickminer_spritesheet_82
+    21300402: clickminer_spritesheet_83
+    21300404: clickminer_spritesheet_84
+    21300406: clickminer_spritesheet_85
+    21300408: clickminer_spritesheet_86
+    21300410: clickminer_spritesheet_87
+    21300412: clickminer_spritesheet_88
+    21300414: clickminer_spritesheet_89
+    21300416: clickminer_spritesheet_90
+    21300418: clickminer_spritesheet_91
+    21300420: clickminer_spritesheet_92
+    21300422: clickminer_spritesheet_93
+    21300424: clickminer_spritesheet_94
+    21300426: clickminer_spritesheet_95
+    21300428: clickminer_spritesheet_96
+    21300430: clickminer_spritesheet_97
+    21300432: clickminer_spritesheet_98
+    21300434: clickminer_spritesheet_99
+    21300436: clickminer_spritesheet_100
+    21300438: clickminer_spritesheet_101
+    21300440: clickminer_spritesheet_102
+    21300442: clickminer_spritesheet_103
+    21300444: clickminer_spritesheet_104
+    21300446: clickminer_spritesheet_105
+    21300448: clickminer_spritesheet_106
+    21300450: clickminer_spritesheet_107
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clickminer_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90a6ca957854184fb02969ff7a1c7ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ec2022a0075d74f95e52d340b1b627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4de15d3f77c0f646aefc71e16ad41d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c9d379ec37ab54ab10381436141a80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d6fecb7c0501146b4058fcb3f2d411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279d613dea6011c49927043064954be2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d425797862f1cee41b61ebb5fe1b1a69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1918
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc33dfc060838a04d8a5d0f41e1c0122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543f8eb137cb36d4da93c9b89197b3a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21700a7fcb869804ba505944b3e16d01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8102e1f075d7a4fb63897fee4e198d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19155798e1db49e47a440745bbf9babe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fda85e146283e741847263dfbbdea7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4c9400c5fafe245afb255cd423ecc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4890614a0164e4b891d4f3a26e7a78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1788
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5d33c1bbec01e43b9af4da3623dbad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b1cb8b223d1d34b9a011d8b95f0bf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1559830e94f5a2847b0fcefbeb259f9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9c5e93a5377354aa9c31c52d1d44cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92acd5b5ed41298449670e3cd9ce5d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6565099002878274bb7c368e3ade7e9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e257227f68561e146bf1a3f730cf4895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3a15e871d3e22489d1bab789f80895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1658
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb71bb5e631c88419f3387bbe5d5f91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0178410c644a5f74e89b0ffa59e5a24d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ecccad42a90824aabb1e53617d1d5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c8bceba6987474ea719182455d6fd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da09725449716e4fa005aa898b80d83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ef920b4c67bab4a9cc5f5ddc368f06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2c0425add370a469aa59f4d894891e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1528
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa35acafd0464445868ecd5c014a431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4c0cdfb742b5545ab110379d36ae7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c1d2c144524044ea7c58e3e4ef2929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335fe8dad59c95c48978afbc21a041f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a3cc2f9ed8ada48b05c6511c29a954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f55e89ab716f1341bb36a9cf8bb82c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce92b51cf05f9b45af5f1ea7f74dece
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1398
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf177ce9fbda134a8f24454874a809c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa06deb5fd937d469baa365e2a6a582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f35c8e642d143439fa717e666220bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4b2500de4111b40b2d19adf0cdfe25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c558e6adfb6353c41b3b7b6921e15605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8555068a493c8ab4c90f70f653b65d60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaa86b95c0a7504aa0981e24f61e75c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1268
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0b2d4fc1064bd49b489e7f34a67f2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47c2a1f9753a334398f63c96cc462f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b098aa5575aa341893504d3824d713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ac58f4a9425634493ddaf30cec76ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5033d28b392b88a489ead21361a77488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16524d7138fc5c14c811a711f82f5e0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12edc7afd27fd13469e0d132bcf662be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1138
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8be2fa26132867428895f4bcae6add6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0256f1821f0fc794cbb2b483fe78067b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22deb9c613bb52b42933ee21f0aae882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6aea213e50dd2e458cd1cd9831bdd02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c14f403e929e6c4e851b61243c9ed68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8895b49b6fdf5ab40b9e49396f9e86db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66209f9b116d5774eb14f5db759cfc11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9a0052fa3db534fbeae5fb1075b368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1008
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd39adc3353382347801beffa75d14cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e69765535935d4dbca8b04d369be52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b07edf53e458cb4c9e0720793332737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d131308f1afd8144da31b0407a47ac9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294a5a0996db7d7408a2e55ec545deec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9db81edaf030a4dae7218cb74d79c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bef1c26b1d4ab4685152b8b7280f86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f1c8040bbd08a4d855f45cede4ac1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 878
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a82fd81bbfb2c41bc5b13c1b91fd2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e6eee1d57bc1d4c9d1a74146f9ccfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bf941276a18ee4cab6cd5053e5361a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4773a858f782a74a83413c93e3773ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20712a766cbe114daa34b4f893ab477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac7057ca1c4ca7419a401f32b8704aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f8144d46db5e4429441a6b2c5f199a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e289d2a314f16543a9b0ca30e11b047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 748
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30df84ce6714a994da65de7377dff99d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963849555b00261458f9ddfd1471c5b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd371ecd57ce7c41a877952905a0405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e4dd7dfda255d4689225726756aa2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155fd7307b72da64e8381ad1e88e15f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af064aae495996f46a04ece758303491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f4d0a802de58741b8c3c8b23308e77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 618
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be832f7c75642241abedad567d7febb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964afee363f080148a6f6cb3da5f494b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c3a5a1f5c4ff04390f84b79f6d4e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13438e82cf04c934986b4803c594d282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37175ae6a921d0d4da244caf7e561b45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ae45226cd11d042b972cd55b1e4ace
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03d4398ffe43944d9556e2657021b92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 488
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb394cb22f11ba4c8766ece9b751125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725e33c134d4e9746b5b75b03824a978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 358
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630b00d05c3367242b4fe0da9ea050f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 358
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6562b4003a75643941f28b1d2ecbb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 358
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e739d2c7c2da8e0479d7b60f44fcb7b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 358
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe49688f064b01448069cf25ff7f01b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 358
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee15dcd2a4e71844b369ca4a7e66b39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4141587ecf4b14593e2bce1a00c958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 228
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d35b9232567af4c894cd7fc5312c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 228
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ef2a7531e7efa4eab61cd182e304f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 228
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739fa1b1d04bd0645b804444b32e01a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 228
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45f3a5a71de9404683e458fccb1162a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 228
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b876b9c30986b884b9b41078071be513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c7f0b2be6d43f469de6d92821c03dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 98
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acaae31919e4314e81c7bbe9b276f32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 98
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645d18c8ef4c64f4ebc75078eaf1ba0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 98
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd84bb07ab0e0584394fcab45e2a3c58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 98
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7676a680ab156e544945f1fd119f6294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clickminer_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 98
+        width: 128
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0f3a0fb8270894895b9bca2909d256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
