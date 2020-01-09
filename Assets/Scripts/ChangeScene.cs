@@ -9,22 +9,22 @@ public class ChangeScene : MonoBehaviour
     public GameObject statusBox;
     public void ChangeToMain()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
         statusBox.GetComponent<Text>().text = "Moving to the main screen...";
         statusBox.GetComponent<Animation>().Play("StatusAnimation");
     }
 
     public void ChangeToShop()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
         statusBox.GetComponent<Text>().text = "Moving to the shop screen...";
         statusBox.GetComponent<Animation>().Play("StatusAnimation");
     }
 
-    public void ChangeToOldMain()
+    public void ChangeToAchievements()
     {
-        SceneManager.LoadScene(0);
-        statusBox.GetComponent<Text>().text = "YAY! OLD VERSION!!!";
+        SceneManager.LoadScene(2);
+        statusBox.GetComponent<Text>().text = "Moving to the achievements screnn...";
         statusBox.GetComponent<Animation>().Play("StatusAnimation");
     }
 }

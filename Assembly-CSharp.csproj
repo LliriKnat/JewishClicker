@@ -69,11 +69,14 @@
     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
     <Compile Include="Assets\Scripts\Autoclicker.cs" />
     <Compile Include="Assets\Scripts\AutoShekel.cs" />
+    <Compile Include="Assets\Scripts\BigInt.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\GlobalAchievements.cs" />
     <Compile Include="Assets\Scripts\GlobalShekels.cs" />
     <Compile Include="Assets\Scripts\GlobalUpgrades.cs" />
     <Compile Include="Assets\Scripts\MainShekelClick.cs" />
     <Compile Include="Assets\Scripts\OnLoad.cs" />
+    <Compile Include="Assets\Scripts\OnLoadAchievements.cs" />
     <Compile Include="Assets\Scripts\PurchaseLog.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Coding/Unity/JewishClicker/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

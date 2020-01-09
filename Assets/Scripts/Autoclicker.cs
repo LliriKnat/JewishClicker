@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Autoclicker : MonoBehaviour
 {
-    public static int moneyPerSec = 0;
+    public static BigInt moneyPerSec = new BigInt();
     public GameObject upgrade;
     public GameObject AutoShekel;
-
+    /*
     public void BuyUpgrade()
     {
         AutoShekel.SetActive(true);
@@ -19,7 +19,7 @@ public class Autoclicker : MonoBehaviour
         Debug.Log(int.Parse(upgrade.transform.Find("Description").GetComponent<Text>().text));
         //GlobalJewerlyJew.numberOfJewerlyJews += 1;
     }
-
+    */
     void Update()
     {
         

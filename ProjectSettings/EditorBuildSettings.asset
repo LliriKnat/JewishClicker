@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/IdleClickerKit/AllForCashSample.unity
-    guid: 6e64882078db140e19bfec5fa54d5750
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/MainScene.unity
     guid: 7ac07af792386bd43a001cad33b9d5b0
   - enabled: 1
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: 898e4e7d4c37c224a975b287e3bc0519
+  - enabled: 1
+    path: Assets/Scenes/Achievements.unity
+    guid: fcb19befd5eb71742b0adf5bffb233d2
   m_configObjects: {}

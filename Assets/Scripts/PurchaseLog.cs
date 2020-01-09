@@ -26,67 +26,79 @@ public class PurchaseLog : MonoBehaviour
     }
     public void BuyGoy ()
     {
-        if (GlobalShekels.ShekelCount >= GlobalUpgrades.goyCost)
+        char compare = GlobalShekels.ShekelCount.compare(GlobalUpgrades.goyCost);
+        if ((compare == '>') || (compare == '='))
         {
-            GlobalShekels.ShekelCount -= GlobalUpgrades.goyCost;
-            GlobalUpgrades.goyCost *= 2;
-            goy.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.goyCost);
-            Autoclicker.moneyPerSec += 1;
+            GlobalShekels.ShekelCount.minus(GlobalUpgrades.goyCost);
+            GlobalUpgrades.goyCost.multiplySmall(2);
+            goy.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.goyCost.showAsLetter());
+            Autoclicker.moneyPerSec.plusSmall(1);
         }
     }
 
     public void BuyMoneylander()
     {
-        if (GlobalShekels.ShekelCount >= GlobalUpgrades.moneylanderCost)
+        char compare = GlobalShekels.ShekelCount.compare(GlobalUpgrades.moneylanderCost);
+        if ((compare == '>') || (compare == '='))
         {
-            GlobalShekels.ShekelCount -= GlobalUpgrades.moneylanderCost;
-            GlobalUpgrades.moneylanderCost *= 2;
-            moneylander.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.moneylanderCost);
-            Autoclicker.moneyPerSec += 3;
+            GlobalShekels.ShekelCount.minus(GlobalUpgrades.moneylanderCost);
+            GlobalUpgrades.moneylanderCost.multiplySmall(2);
+            moneylander.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.moneylanderCost.showAsLetter());
+            Autoclicker.moneyPerSec.plusSmall(3);
         }
     }
 
     public void BuyRabbi()
     {
-        if (GlobalShekels.ShekelCount >= GlobalUpgrades.rabbiCost)
+        char compare = GlobalShekels.ShekelCount.compare(GlobalUpgrades.rabbiCost);
+        if ((compare == '>') || (compare == '='))
         {
-            GlobalShekels.ShekelCount -= GlobalUpgrades.rabbiCost;
-            GlobalUpgrades.rabbiCost *= 2;
-            rabbi.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.rabbiCost);
-            Autoclicker.moneyPerSec += 10;
+            GlobalShekels.ShekelCount.minus(GlobalUpgrades.rabbiCost);
+            GlobalUpgrades.rabbiCost.multiplySmall(2);
+            rabbi.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.rabbiCost.showAsLetter());
+            Autoclicker.moneyPerSec.plusSmall(10);
         }
+        StartCoroutine(ShopCooldown());
     }
 
     public void BuySynagogue()
     {
-        if (GlobalShekels.ShekelCount >= GlobalUpgrades.synagogueCost)
+        char compare = GlobalShekels.ShekelCount.compare(GlobalUpgrades.synagogueCost);
+        if ((compare == '>') || (compare == '='))
         {
-            GlobalShekels.ShekelCount -= GlobalUpgrades.synagogueCost;
-            GlobalUpgrades.synagogueCost *= 2;
-            synagogue.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.synagogueCost);
-            Autoclicker.moneyPerSec += 20;
+            GlobalShekels.ShekelCount.minus(GlobalUpgrades.synagogueCost);
+            GlobalUpgrades.synagogueCost.multiplySmall(2);
+            synagogue.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.synagogueCost.showAsLetter());
+            Autoclicker.moneyPerSec.plusSmall(20);
         }
     }
 
     public void BuyJewerly()
     {
-        if (GlobalShekels.ShekelCount >= GlobalUpgrades.jewerlyCost)
+        char compare = GlobalShekels.ShekelCount.compare(GlobalUpgrades.jewerlyCost);
+        if ((compare == '>') || (compare == '='))
         {
-            GlobalShekels.ShekelCount -= GlobalUpgrades.jewerlyCost;
-            GlobalUpgrades.jewerlyCost *= 2;
-            jewerly.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.jewerlyCost);
-            Autoclicker.moneyPerSec += 30;
+            GlobalShekels.ShekelCount.minus(GlobalUpgrades.jewerlyCost);
+            GlobalUpgrades.jewerlyCost.multiplySmall(2);
+            jewerly.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.jewerlyCost.showAsLetter());
+            Autoclicker.moneyPerSec.plusSmall(30);
         }
     }
 
     public void BuyKibbutz()
     {
-        if (GlobalShekels.ShekelCount >= GlobalUpgrades.kibbutzCost)
+        char compare = GlobalShekels.ShekelCount.compare(GlobalUpgrades.kibbutzCost);
+        if ((compare == '>') || (compare == '='))
         {
-            GlobalShekels.ShekelCount -= GlobalUpgrades.kibbutzCost;
-            GlobalUpgrades.kibbutzCost *= 2;
-            kibbutz.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.kibbutzCost);
-            Autoclicker.moneyPerSec += 50;
+            GlobalShekels.ShekelCount.minus(GlobalUpgrades.kibbutzCost);
+            GlobalUpgrades.kibbutzCost.multiplySmall(2);
+            kibbutz.transform.Find("Cost").GetComponent<Text>().text = "" + (GlobalUpgrades.kibbutzCost.showAsLetter());
+            Autoclicker.moneyPerSec.plusSmall(50);
         }
+    }
+
+    IEnumerator ShopCooldown()
+    {
+        yield return new WaitForSeconds(1);
     }
 }

@@ -11,13 +11,13 @@ public class GlobalUpgrades : MonoBehaviour
     public GameObject synagogue;
     public GameObject jewerly;
     public GameObject kibbutz;
-    public int currentMoney;
-    public static int goyCost = 25;
-    public static int moneylanderCost = 100;
-    public static int rabbiCost = 500;
-    public static int synagogueCost = 1250;
-    public static int jewerlyCost = 2000;
-    public static int kibbutzCost = 5000;
+    //public BigInt currentMoney = new BigInt();
+    public static BigInt goyCost = new BigInt(25);
+    public static BigInt moneylanderCost = new BigInt(100);
+    public static BigInt rabbiCost = new BigInt(500);
+    public static BigInt synagogueCost = new BigInt(1250);
+    public static BigInt jewerlyCost = new BigInt(2000);
+    public static BigInt kibbutzCost = new BigInt(5000);
 
 
     //public static int jewerlyJewValue = 25;
@@ -26,6 +26,8 @@ public class GlobalUpgrades : MonoBehaviour
     //public static int numberOfJewerlyJews;
     //public static int jewerlyPerSec;
     // Update is called once per frame
+
+
     void Update()
     {
         if (AutoShekel.goyFlag)
@@ -47,7 +49,7 @@ public class GlobalUpgrades : MonoBehaviour
         //int synagogueCost = int.Parse(synagogue.transform.Find("Cost").GetComponent<Text>().text);
         //int jewerlyCost = int.Parse(jewerly.transform.Find("Cost").GetComponent<Text>().text);
         //int kibbutzCost = int.Parse(kibbutz.transform.Find("Cost").GetComponent<Text>().text);
-        currentMoney = GlobalShekels.ShekelCount;
+        //currentMoney = GlobalShekels.ShekelCount;
         //jewerlyJewStats.GetComponent<Text>().text = "Jewerly Jews: " + numberOfJewerlyJews + " @ " + jewerlyPerSec + " Per Second";
        // text.GetComponent<Text>().text = "Buy Jewerly Jew - " + jewerlyJewValue;
     }

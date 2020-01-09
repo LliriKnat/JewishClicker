@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class GlobalShekels : MonoBehaviour
 {
-    public static int ShekelCount;
+    public static BigInt ShekelCount = new BigInt();
     public GameObject ShekelDisplay;
-    public int InternalShekel;
+    public BigInt InternalShekel = new BigInt();
 
     void Update()
     {
         InternalShekel = ShekelCount;
-        ShekelDisplay.GetComponent<Text>().text = "" + InternalShekel;
+        ShekelDisplay.GetComponent<Text>().text = "" + InternalShekel.showAsLetter();
     }
 }
