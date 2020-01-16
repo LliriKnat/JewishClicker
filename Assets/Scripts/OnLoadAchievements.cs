@@ -35,7 +35,7 @@ public class OnLoadAchievements : MonoBehaviour
         if ((compare == '=') || (compare == '>'))
             ach04.transform.Find("Progress").GetComponent<Text>().text = "228/228";
         else
-            ach04.transform.Find("Progress").GetComponent<Text>().text = Autoclicker.moneyPerSec.show() + "/228";
+            ach04.transform.Find("Progress").GetComponent<Text>().text = MainShekelClick.clickCount.show() + "/228";
 
         count.GetComponent<Text>().text = "Total achievements: " + GlobalAchievements.achCount;
         if (GlobalAchievements.ach01Active)

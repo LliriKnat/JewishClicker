@@ -18,7 +18,7 @@ public class GlobalUpgrades : MonoBehaviour
     public static BigInt synagogueCost = new BigInt(1250);
     public static BigInt jewerlyCost = new BigInt(2000);
     public static BigInt kibbutzCost = new BigInt(5000);
-
+        
 
     //public static int jewerlyJewValue = 25;
     // public static bool turnOffJewerly = false;

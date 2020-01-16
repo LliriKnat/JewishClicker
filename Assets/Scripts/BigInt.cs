@@ -6,9 +6,15 @@ using UnityEngine.UI;
 public class BigInt
 {
 
-    
-
     private List<int> value = new List<int>();
+
+
+    //добавляет число в начало 
+    public void addBeg(int v)
+    {
+        this.value.Insert(0, v);
+    }
+
     //добавляет разряд со значением v
     public void add(int v)
     {
@@ -272,31 +278,107 @@ public class BigInt
         this.minus(transToBigInt(x));
     }
 
-    //умножение на маленькое число(меньше 1000)
-    public void multiplySmall(int x)
+    public void multiply(BigInt x)
     {
-        List<int> buff = new List<int>();
-        for (int i = 0; i < this.count(); i++)
+        if (x.count() == 0 && x.value[0] == 0)
         {
-            if (i == buff.Count)
+            this.value.Clear();
+            this.add(0);
+        }
+        else
+        {
+            BigInt buff1 = new BigInt();
+            for (int i = 0; i < this.count(); i++)
             {
-                buff.Add(0);
+                for (int j = 0; j < x.count(); j++)
+                {
+                    BigInt buff2 = new BigInt(this.value[i] * x.value[j]);
+                    for (int z = 0; z < i + j; z++)
+                    {
+                        buff2.addBeg(0);
+                    }
+                    buff1.plus(buff2);
+                }
+
             }
-            buff[i] += this.value[i] * x;
-            int j = i;
-            while (buff[j] >= 1000)
+            this.value = buff1.value;
+        }
+        
+
+    }
+
+    //умножение на маленькое число(меньше 1000, больше или равно 0)
+    public void multiply(int x)
+    {
+        if (x == 0)
+        {
+            this.value.Clear();
+            this.add(0);
+        } else
+        {
+            List<int> buff = new List<int>();
+            for (int i = 0; i < this.count(); i++)
             {
-                if (j + 1 == buff.Count)
+                if (i == buff.Count)
                 {
                     buff.Add(0);
                 }
-                buff[j + 1] += buff[j] / 1000;
-                buff[j] = buff[j] % 1000;
-                j++;
+                buff[i] += this.value[i] * x;
+                int j = i;
+                while (buff[j] >= 1000)
+                {
+                    if (j + 1 == buff.Count)
+                    {
+                        buff.Add(0);
+                    }
+                    buff[j + 1] += buff[j] / 1000;
+                    buff[j] = buff[j] % 1000;
+                    j++;
+                }
             }
+            this.value = buff;
         }
-        this.value = buff;
+        
     }
+
+    // приравнивает к значению в виде строки(или нулю если строки нет или в ней есть символы кроме цифр
+    public void setFromString(string s)
+    {
+        this.value.Clear();
+        int buff;
+        bool flag = true;
+
+        for (int i = 0; i < s.Length / 3; i++)
+        {
+
+            if (int.TryParse(s.Substring(s.Length - (i + 1) * 3, 3), out buff))
+            {
+                this.add(buff);
+            }
+            else
+            {
+                this.value.Clear();
+                this.add(0);
+                flag = false;
+                Debug.Log("BigInt ERROR: can't transform string");
+                break;
+            }
+
+        }
+
+        if (flag && s.Length % 3 > 0)
+            if (int.TryParse(s.Substring(0, s.Length % 3), out buff))
+                this.add(buff);
+            else
+            {
+                this.value.Clear();
+                this.add(0);
+                Debug.Log("BigInt ERROR: can't transform string");
+            }
+
+
+    }
+
 
     public BigInt()
     {
@@ -305,12 +387,20 @@ public class BigInt
 
     public BigInt(int x)
     {
+        this.value.Add(0);
         this.plusSmall(x);
     }
 
     public BigInt(BigInt x)
     {
         this.value = x.value;
+    }
+
+    public BigInt(string s)
+    {
+
+        this.setFromString(s);
+
     }
 
 }

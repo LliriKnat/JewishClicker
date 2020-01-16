@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class GlobalAchievements : MonoBehaviour
 {
     //General Variables
-    public GameObject statusBox;
     public AudioSource achSound;
     public static int achCount;
     private char compare;
@@ -43,9 +42,6 @@ public class GlobalAchievements : MonoBehaviour
             achCount += 1;
             ach01Active = true;
             achSound.Play();
-            statusBox.GetComponent<Animation>().Stop("StatusAnimation");
-            statusBox.GetComponent<Text>().text = "Congratulations! You've unlocked an achievement.";
-            statusBox.GetComponent<Animation>().Play("StatusAnimation");
         }
 
         compare = Autoclicker.moneyPerSec.compare(ach02Trigger);
@@ -54,9 +50,6 @@ public class GlobalAchievements : MonoBehaviour
             achCount += 1;
             ach02Active = true;
             achSound.Play();
-            statusBox.GetComponent<Animation>().Stop("StatusAnimation");
-            statusBox.GetComponent<Text>().text = "Congratulations! You've unlocked an achievement.";
-            statusBox.GetComponent<Animation>().Play("StatusAnimation");
         }
 
         compare = Autoclicker.moneyPerSec.compare(ach03Trigger);
@@ -65,9 +58,6 @@ public class GlobalAchievements : MonoBehaviour
             achCount += 1;
             ach03Active = true;
             achSound.Play();
-            statusBox.GetComponent<Animation>().Stop("StatusAnimation");
-            statusBox.GetComponent<Text>().text = "Congratulations! You've unlocked an achievement.";
-            statusBox.GetComponent<Animation>().Play("StatusAnimation");
         }
 
         compare = MainShekelClick.clickCount.compare(ach04Trigger);
@@ -76,9 +66,6 @@ public class GlobalAchievements : MonoBehaviour
             achCount += 1;
             ach04Active = true;
             achSound.Play();
-            statusBox.GetComponent<Animation>().Stop("StatusAnimation");
-            statusBox.GetComponent<Text>().text = "Congratulations! You've unlocked an achievement.";
-            statusBox.GetComponent<Animation>().Play("StatusAnimation");
         }
     }
 }
